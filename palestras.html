@@ -2,7 +2,7 @@
 <html lang="en" class="wide smoothscroll wow-animation">
 <head>
     <!-- Site Title -->
-    <title>Contatos</title>
+    <title>Palestras</title>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 
@@ -61,47 +61,19 @@
                     <!-- END RD Navbar Panel -->
 
                     <div class="rd-navbar-nav-wrap">
-
-                        <!-- Login form -->
-                        <div class="login-form">
-                            <button class="rd-navbar-login-toggle" data-rd-navbar-toggle=".rd-navbar-login">
-                                <span></span>
-                            </button>
-                            <div class="rd-navbar-login">
-                                <div class="rd-navbar-login-inner">
-                                    <h4>Login form:</h4>
-
-                                    <!-- RD Mailform -->
-                                    <form class='rd-loginform'>
-
-                                        <fieldset>
-                                            <label>
-                                                <input type="text"
-                                                       name="email"
-                                                       placeholder="Email address"/>
-                                            </label>
-
-                                            <label>
-                                                <input type="password"
-                                                       name="name"
-                                                       placeholder="Password"/>
-                                            </label>
-
-                                            <a class="letter-spacing-variant-3 offset-11" href="#">Forgot your password?</a>
-                                            <button class="btn btn-sm btn-primary" >log in</button>
-
-                                            <div><a href="#" class="letter-spacing-variant-4 text-uppercase text-bold offset-12">or registration</a></div>
-
-                                        </fieldset>
-                                    </form>
-                                    <!-- END RD Mailform -->
-
-                                </div>
-                            </div>
+                        <div class="rd-navbar-search">
+                            <form class="rd-navbar-search-form" action="search.php" method="GET">
+                                <label class="rd-navbar-search-form-input">
+                                    <input type="text" name="s" placeholder="Search.." autocomplete="off"/>
+                                </label>
+                                <button class="rd-navbar-search-form-submit" type="submit"></button>
+                            </form>
+                            <span class="rd-navbar-live-search-results"></span>
+                            <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search"></button>
                         </div>
-                        <!-- END Login form -->
+                        <!-- END RD Navbar Search -->
 
-                        <!-- RD Navbar Search -->
+<!-- RD Navbar Search -->
                         <div class="rd-navbar-search">
                             <form class="rd-navbar-search-form" action="search.php" method="GET">
                                 <label class="rd-navbar-search-form-input">
@@ -156,90 +128,26 @@
             </nav>
         </div>
         <!-- END RD Navbar -->
-    </header>
     <!--========================================================
                               CONTENT
     =========================================================-->
     <main class="page-content">
-        <!-- RD Google Map -->
-        <!--div class="rd-google-map">
-            <div id="google-map" class="rd-google-map__model" data-zoom="14" data-x="-22.4355937" data-y="-45.4397371"></div>
-            <ul class="rd-google-map__locations">
-                <li data-x="-22.4355937" data-y="-45.4397371">
-                    <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45. <br class="hidden-xs"> <span>800 2345-6789</span></p>
-                </li>
-            </ul>
-        </div-->
-        <!-- END RD Google Map -->
-
         <!--  -->
-        <section class="text-center well-sm--inset-1">
-            <br><br><br>
+        <section class="well-sm text-center">
             <div class="container">
-                <h2><span class="lines">Informações de Contato</span></h2>
-                <div class="row text-md-left">
-                    <div class="col-md-4 contact-info">
-                        <p style="color:#696969">Ficarei feliz em responde-lo e tirar suas dúvidas.</p>
-                        <address class="line-height-variant-1 text-primary text-bold inset-10">Ronaldo Abranches.<br>
-                        	Itajubá - Minas Gerais<br> 
-							Rua Pytagoras Pinto Almeida, 138 
-							Bairro Santa Rita de Cássia
-						</address>
-                        <dl class="offset-14 text-left">
-                            <dt class="min-width-2" style="color:#696969">Telefone/Whatsapp</dt>
-                            <dd><a href="callto:" style="color:#696969">(35) 99963 - 5502</a></dd>
-                        </dl>
-                    </div>
-                    <div class="col-md-8 offset-5">
-                        <!-- RD Mailform -->
-                        <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
-                            <!-- RD Mailform Type -->
-                            <input type="hidden" name="form-type" value="contact"/>
-                            <!-- END RD Mailform Type -->
-                            <fieldset>
-                                <div class="row">
-                                    <div class="col-md-6 inset-1">
-                                        <label data-add-placeholder>
-                                            <input type="text"
-                                                   name="name"
-                                                   placeholder="Seu nome"
-                                                   data-constraints="@NotEmpty @LettersOnly"/>
-                                        </label>
-                                        <label data-add-placeholder>
-                                            <input type="text"
-                                                   name="email"
-                                                   placeholder="Seu melhor e-mail"
-                                                   data-constraints="@NotEmpty @Email"/>
-                                        </label>
-                                        <label data-add-placeholder>
-                                            <input type="text"
-                                                   name="phone"
-                                                   placeholder="Seu telefone"
-                                                   data-constraints="@Phone"/>
-                                        </label>
-                                    </div>
-
-                                    <div class="col-md-6 offset-6">
-                                        <div class="preffix-1">
-                                            <label data-add-placeholder>
-                            <textarea name="message" placeholder="Escreva aqui a mensagem"
-                                      data-constraints="@NotEmpty"></textarea>
-                                            </label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="mfControls btn-group text-center text-md-right">
-                                    <button class="btn btn-xs btn-primary" type="submit">Enviar</button>
-                                </div>
-
-                                <div class="mfInfo"></div>
-                            </fieldset>
-                        </form>
-                        <!-- END RD Mailform -->
-                    </div>
-                </div>
+                <h2><span class="lines">Palestras</span></h2>
+                        <p align="left" class="inset-1">O Prof. Ronaldo Abranches desenvolve palestras sempre descontraídas, com vários efeitos audiovisuais que auxiliam na sensibilização dos participantes e com conteúdos para facilitar as mudanças comportamentais necessárias aos paradígmas do mercado.<br><br>
+                        Algumas palestras:<br><br></p>
+                        <ul style="color:#696969" align="left">
+                            <li>Você é pipoca ou Piruá?</li>
+                            <li>Atitude! Essa é a bola da vez!</li>
+                            <li>Escalando a montanha do sucesso;</li>
+                            <li>Aumente seu poder pessoal;</li>
+                            <li>Criatividade: Malhando o Cérebro;</li>
+                            <li>O educador empreendedor;</li>
+                            <li>Construindo a Segunda Carreira;</li>
+                            <li>Melhore seu desempenho e sua vida.</li>
+                        </ul>
             </div>
         </section>
         <!-- END -->
