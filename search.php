@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="wide wow-animation">
+<html lang="pt-BR" class="wide wow-animation">
 <head>
     <!-- Site Title -->
-    <title>Search Results</title>
+    <title>Resultados da Pesquisa</title>
+    <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 
@@ -32,14 +33,12 @@
                               HEADER
     =========================================================-->
     <header class="page-header">
-        <div class="inset-5 bg-image text-center" style="background-image: url('images/page02_img01.jpg')">
-            <!-- RD Navbar Brand -->
-            <a href="index.html" class="brand brand-offset-2">
-                <span class="brand-name">Tran<span class="text-uppercase letter-spacing-variant-1">Smart</span></span><br>
-                <span class="brand-slogan">Life Coaching Business</span>
-            </a>
-            <!-- END RD Navbar Brand -->
-        </div>
+
+        <!-- RD Navbar Brand -->
+        <a href="index.html" class="brand brand-absolute brand-offset hidden visible-sm-inline-block">
+            <span class="brand-slogan"><img src="images/logo01.png" alt=""></span>
+        </a>
+        <!-- END RD Navbar Brand -->
 
         <!-- RD Navbar -->
         <div class="rd-navbar-wrap">
@@ -63,45 +62,6 @@
 
                     <div class="rd-navbar-nav-wrap">
 
-                        <!-- Login form -->
-                        <div class="login-form">
-                            <button class="rd-navbar-login-toggle" data-rd-navbar-toggle=".rd-navbar-login">
-                                <span></span>
-                            </button>
-                            <div class="rd-navbar-login">
-                                <div class="rd-navbar-login-inner">
-                                    <h4>Login form:</h4>
-
-                                    <!-- RD Mailform -->
-                                    <form class='rd-loginform'>
-
-                                        <fieldset>
-                                            <label>
-                                                <input type="text"
-                                                       name="email"
-                                                       placeholder="Email address"/>
-                                            </label>
-
-                                            <label>
-                                                <input type="password"
-                                                       name="name"
-                                                       placeholder="Password"/>
-                                            </label>
-
-                                            <a class="letter-spacing-variant-3 offset-11" href="#">Forgot your password?</a>
-                                            <button class="btn btn-sm btn-primary" >log in</button>
-
-                                            <div><a href="#" class="letter-spacing-variant-4 text-uppercase text-bold offset-12">or registration</a></div>
-
-                                        </fieldset>
-                                    </form>
-                                    <!-- END RD Mailform -->
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END Login form -->
-
                         <!-- RD Navbar Search -->
                         <div class="rd-navbar-search">
                             <form class="rd-navbar-search-form" action="search.php" method="GET">
@@ -121,57 +81,37 @@
                                 <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="index-1.html">About us</a>
+                                <a href="minha-historia.html">Minha História</a>
                             </li>
                             <li>
-                                <a href="index-2.html">Blog</a>
+                                <a>Serviços</a>
 
                                 <!-- RD Navbar Dropdown -->
                                 <ul class="rd-navbar-dropdown">
                                     <li>
-                                        <a href="#">Pricing</a>
+                                        <a href="coaching.html">Coaching</a>
                                     </li>
                                     <li>
-                                        <a href="#">FAQs</a>
+                                        <a href="palestras.html">Palestras</a>
                                     </li>
                                     <li>
-                                        <a href="#">Our team</a>
+                                        <a href="treinamentos.html">Treinamentos</a>
                                     </li>
                                     <li>
-                                        <a href="#">History</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Testimonials</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Site map</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Forum</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Careers</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Portfolio</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Elements</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Template settings</a>
+                                        <a href="consultoria.html">Consultoria Empresarial</a>
                                     </li>
                                 </ul>
                                 <!-- END RD Navbar Dropdown -->
 
                             </li>
                             <li>
-                                <a href="index-3.html">Gallery</a>
+                                <a href="galeria.html">Galeria</a>
                             </li>
                             <li>
-                                <a href="index-4.html">Contacts</a>
+                                <a href="contato.html">Contato</a>
                             </li>
                         </ul>
+
                         <!-- END RD Navbar Nav -->
                     </div>
                 </div>
@@ -201,32 +141,32 @@
     <!--========================================================
                               FOOTER
     =========================================================-->
-    <footer class="page-footer well-lg bg-grayscale-lightest text-center text-md-left">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <!-- RD Navbar Brand -->
                     <a href="index.html" class="brand">
-                        <span class="brand-name">Tran<span class="text-uppercase letter-spacing-variant-1">Smart</span></span><br>
+                        <span class="brand-name"><img src="images/logo02.png" alt=""></span><br>
                     </a>
                     <!-- END RD Navbar Brand -->
                     <p class="copyright">
                         &copy; <span id="copyright-year"></span> |
-                        <a href='index-5.html'>Privacy Policy</a>
-                        <!-- {%FOOTER_LINK} -->
+                        <a href='index-5.html'>Todos os direitos reservados</a>
+                        <!--More Life Coach Website Templates at <a rel="nofollow" href="http://www.templatemonster.com/category/life-coach-website-templates/" target="_blank">TemplateMonster.com</a-->
                     </p>
                 </div>
                 <div class="col-md-5">
                     <div class="contact-info">
-                        <address class="letter-spacing-variant-5">
-                            USA - LOS ANGELES, <br class="hidden visible-lg-inline-block">
-                            901 East E Street, Wilmington, CA 90744
+                        <address class="letter-spacing-variant-5" style="color: #696969">
+                            Itajubá - Minas Gerais, <br class="hidden visible-lg-inline-block">
+                            Rua Pytagoras Pinto Almeida, 138 <br>
+                            Bairro Santa Rita de Cássia
                         </address>
                         <dl>
-                            <dt class="min-width-1 letter-spacing-variant-5">E -mail</dt>
-                            <dd class="letter-spacing-variant-5"><a class="text-bold" href="mailto:">mail@demolink.org</a></dd>
+                            <dt class="min-width-1 letter-spacing-variant-5" style="color: #696969">E -mail</dt>
+                            <dd class="letter-spacing-variant-5"><a class="text-bold" href="mailto:">ronaldoabranches@uol.com.br</a></dd>
                         </dl>
-                        <a class="big offset-13" href="callto:">(800) - 2345 - 6789</a>
+                        <a class="big offset-13" href="callto:">(35) 99963 - 5502</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -235,6 +175,7 @@
                         <li><a class="icon icon-sm icon-primary fa-google-plus" href="#"></a></li>
                         <li><a class="icon icon-sm icon-primary fa-linkedin" href="#"></a></li>
                         <li><a class="icon icon-sm icon-primary fa-twitter" href="#"></a></li>
+                        <img src="images/vox-veritas.png">
                     </ul>
                 </div>
             </div>
